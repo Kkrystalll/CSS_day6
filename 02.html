@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .item {
+        margin: 15px;
+        padding: 10px;
+        border: 1px solid #f00;
+        box-sizing: border-box;
+      }
+      .item img {
+        width: 100%;
+        vertical-align: top;
+        /* display: block; */
+      }
+
+      @media screen and (min-width: 768px) {
+        .wrap {
+          display: flex;
+          width: 720px;
+          margin: auto;
+        }
+        .item {
+          width: 210px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <img src="https://picsum.photos/300/200/?random=10" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+          voluptatem quasi magnam itaque, et nam vel non quod saepe eligendi ad
+          quis distinctio optio! Necessitatibus quae sequi cumque qui facere.
+        </p>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/300/200/?random=10" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+          voluptatem quasi magnam itaque, et nam vel non quod saepe eligendi ad
+          quis distinctio optio! Necessitatibus quae sequi cumque qui facere.
+        </p>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/300/200/?random=10" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+          voluptatem quasi magnam itaque, et nam vel non quod saepe eligendi ad
+          quis distinctio optio! Necessitatibus quae sequi cumque qui facere.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

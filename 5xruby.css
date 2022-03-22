@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #394150;
+}
+
+a {
+  text-decoration: none;
+  color: #ed383b;
+}
+
+span {
+  font-weight: bold;
+}
+
+.wrap {
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 640px;
+  margin: auto;
+}
+
+.teacher {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 40px;
+  /* width: calc(50% - 30px); */
+  border: 1px solid #ccc;
+  margin: 15px;
+  box-shadow: 1px 1px 2px #ccc;
+  border-radius: 5px;
+}
+
+.pic {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pic img {
+  border-radius: 50%;
+  margin-left: -30%;
+}
+
+.information {
+  text-align: center;
+}
+
+.teach p {
+  margin-top: 20px;
+}
+
+.teach p::after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: #ed383b;
+  display: block;
+  margin: 5px auto;
+}
+
+.information h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon i {
+  width: 21px;
+  height: 21px;
+  margin-bottom: 20px;
+}
+
+.text::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.anotherclass h4 {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.anotherclass hr {
+  flex-grow: 1;
+  border: 1px solid #e5e7eb;
+}
+
+.class a {
+  border: 1px solid #ed383b;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.class a:hover {
+  background-color: #ed383b;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    max-width: 768px;
+  }
+  .introduce {
+    display: flex;
+  }
+  .pic {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  .information {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrap {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher {
+    box-sizing: border-box;
+    width: calc(50% - 30px);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrap {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrap {
+    max-width: 1440px;
+  }
+}

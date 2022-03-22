@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.advantage {
+  background-color: #ccc;
+  width: 960px;
+  height: 812px;
+  margin: 100px auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.txt {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage:nth-of-type(even) .txt {
+  justify-content: flex-end;
+}
+
+.joy {
+  width: 355px;
+  height: 388px;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.joy h2 {
+  font-size: 50px;
+  background-color: #bb2a26;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.explain {
+  padding: 25px 20px;
+}
+
+.explain h3 {
+  font-size: 28px;
+}
+
+.explain p {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: lighter;
+  padding-top: 0.7em;
+}
+
+.special {
+  width: 682px;
+  height: 275px;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  padding: 20px 25px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.special h4 {
+  color: #bb2a26;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.special hr {
+  flex-grow: 1;
+  border: 1px solid #bb2a26;
+}
+
+.special li {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-weight: lighter;
+  line-height: 1.5em;
+  padding: 0 5px;
+}
+
+.special ul p {
+  color: #6e6e6e;
+  line-height: 1.5em;
+  padding: 0 20px;
+  text-indent: -0.5em;
+}
+
+.background {
+  /* display: none; */
+  z-index: 2;
+}
+
+.pic {
+  position: absolute;
+  top: 140px;
+  right: 80px;
+  /* z-index: 2; */
+}
+
+.advantage:nth-of-type(even) .pic {
+  position: absolute;
+  left: 10px;
+}
+
+.pic > img {
+  width: 695px;
+  height: 430px;
+}
+
+.youtube img {
+  width: 57px;
+  height: 36px;
+  position: absolute;
+  right: -10px;
+  top: 197px;
+}
+
+.advantage:nth-of-type(even) .youtube img {
+  position: absolute;
+  left: -10px;
+  top: 197px;
+}
+
+.box {
+  width: 439px;
+  height: 290px;
+  background-color: #f5f5f5;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  z-index: 1;
+}
+
+.advantage:nth-of-type(even) .box {
+  width: 518px;
+  height: 413px;
+  position: absolute;
+  top: 60px;
+  right: 165px;
+}
